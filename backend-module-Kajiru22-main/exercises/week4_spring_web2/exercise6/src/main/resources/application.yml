@@ -1,0 +1,23 @@
+server:
+  port: 8501
+marathon:
+  url: http://localhost:8500
+    winner: ${marathon.url}/runners/winner
+    runners: ${marathon.url}/runners
+messages:
+  error: "Error"
+  noWinner: "no winner should have been received"
+  incorrectWinner: "incorrect winner"
+  success: "success"
+  correctly: "correctly"
+integration:
+  winner:
+    name: Lisa
+    duration: PT1H1M34S
+  runners:
+  - name: Lisann
+    duration: PT1H1M56S
+  - name: guy
+    duration: PT1H1M46S
+  - name: bard
+    duration: PT1H1M52S

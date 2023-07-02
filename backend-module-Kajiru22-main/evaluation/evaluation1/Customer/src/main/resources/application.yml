@@ -1,0 +1,16 @@
+server:
+  port: 9101
+data:
+  customer:
+    - name: Jessica
+      email: jessica@email.com
+      accountType: basic account
+    - name: Robert
+      email: robert@email.com
+      accountType: basic account
+    - name: Jack
+      email: jack@email.com
+      accountType: member account
+    - name: Roxane
+      email: roxane@email.com
+      accountType: member account

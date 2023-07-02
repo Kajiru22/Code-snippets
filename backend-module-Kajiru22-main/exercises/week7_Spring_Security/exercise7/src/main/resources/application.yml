@@ -1,0 +1,15 @@
+server:
+  port: 9999
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/mysterious-secret-order
+mysterious-secret-order:
+  message: "Mysterious Secret Order"
+  apprentice:
+    role: ROLE_APPRENTICES
+  master:
+    username: master
+    password: secret
+    authorities: ROLE_MASTER

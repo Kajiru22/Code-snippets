@@ -1,0 +1,10 @@
+emergency:
+  fire:
+    name: Fire Brigade
+    number: 122
+  police:
+    name: Police
+    number: 133
+  general:
+    name: General Emergency
+    number: 112

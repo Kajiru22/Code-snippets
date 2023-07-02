@@ -1,0 +1,11 @@
+result:
+  runners:
+    - name: Lisa
+      duration : PT1H1M34S
+    - name: john
+      duration: PT1H1M37S
+    - name: garry
+      duration: PT1H1M38S
+  winner:
+    name: Lisa
+    duration: PT1H1M34S

@@ -1,0 +1,14 @@
+secretagent:
+  handshakes:
+    - number : 2
+      move : perform the move thumb touches back
+    - number : 3
+      move : perform the move little finger grab
+    - number : 5
+      move : perform the move tickles over palm
+    - number : 6
+      move : perform the move bro knock
+    - number : 9
+      move : perform the move thousand knuckles
+  minPrice : 10
+  maxPrice : 9999

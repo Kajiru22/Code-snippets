@@ -1,0 +1,7 @@
+spring:
+  security:
+    user:
+      name: alibaba
+      password: opensesame
+server:
+  port: 8080
